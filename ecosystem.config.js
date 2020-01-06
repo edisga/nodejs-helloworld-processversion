@@ -4,9 +4,8 @@ module.exports = {
         name: "myapp1",
         script: "./server.js",
         watch: true,
-        env: {
-            "PORT": 3001
-        }
+        error_file:'./error.log',
+        out_file:'./output.log',
       }
   ]
 }
