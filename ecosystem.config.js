@@ -6,6 +6,10 @@ module.exports = {
         watch: true,
         error_file:'./error.log',
         out_file:'./output.log',
+        env: {
+          "NODE_ENV": "production",
+          "PORT": 3000,
+        },
       }
   ]
 }
