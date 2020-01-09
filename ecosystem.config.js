@@ -3,7 +3,7 @@ module.exports = {
       {
         name: "myapp1",
         script: "./server.js",
-        watch: true,
+        watch: false,
         error_file:'./error.log',
         out_file:'./output.log',
         env: {
